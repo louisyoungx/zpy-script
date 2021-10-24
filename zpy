@@ -36,6 +36,7 @@ reservedWords = {
     "空": "None",
     "对": "True",
     "错": "False",
+    "自己": "self",
     "类": "class",
     "异步": "async",
     "等待": "await"
