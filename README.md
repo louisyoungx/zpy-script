@@ -77,7 +77,7 @@ sudo ./zpy example/pokemon.zpy
 #### 六、zpy与python3的语法对应关系
 
 ```python
-reservedWords = {
+关键字 = {
     "类": "class",
     "函数": "def",
     "删除": "del",
@@ -116,7 +116,7 @@ reservedWords = {
     "等待": "await"
 }
 
-functionWords = {
+内部方法 = {
     "符": "chr",
     "二进制": "bin",
     "串": "str",
