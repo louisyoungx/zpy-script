@@ -9,14 +9,14 @@
 - 可将中文zpy关键字与python关键字混用
 
 - 将中文编程的zpy后缀文件，转化为py文件
-- 将py文件传化为中文编程zpy文件
+- 将py文件转化为中文编程zpy文件
 
 #### 三、软件架构
 - 基于Python3实现
 - 纯原生实现，未使用第三方库
 - 支持中英关键字混合编程，完全兼容python3
 - 轻量级177行代码
-- 仅4KB
+- 大小仅4KB
 
 
 #### 四、安装教程
@@ -76,6 +76,23 @@ sudo ./zpy example/pokemon.zpy
 简单顺序查找 完成  0.0001308918s
 ```
 
+4. 全局执行zpy命令
+
+```shell
+sudo chmod 777 zpy
+sudo mv zpy /usr/local/bin
+
+zpy example/pokemon.zpy # 此时可以在任意目录执行zpy命令，不用加./
+```
+
+1. 卸载zpy命令
+
+```shell
+sudo rm /usr/local/bin/zpy
+```
+
+
+
 #### 六、zpy与python3的语法对应关系
 
 ```python
@@ -113,6 +130,7 @@ sudo ./zpy example/pokemon.zpy
     "空": "None",
     "对": "True",
     "错": "False",
+  	"自己": "self",
     "类": "class",
     "异步": "async",
     "等待": "await"
