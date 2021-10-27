@@ -1,7 +1,7 @@
 # zpy-script
 
 #### 一、介绍
-中文编程zpy-script，解析中文的Python关键字，提供一个简单查找demo
+中文编程zpy-script，解析中文的Python关键字，提供一个[简单查找demo](example/pokemon.zpy)
 
 #### 二、基本功能
 
@@ -213,6 +213,8 @@ sudo rm /usr/local/bin/zpy
 
 
 #### 七、示例代码
+
+更多例子：[排序（zpy与python对照）](sort.md)
 
 ```python
 导入 os
