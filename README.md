@@ -1,15 +1,16 @@
 # zpy-script
 
 #### 一、介绍
-中文编程zpy-script，解析中文的Python关键字，提供一个[简单查找demo](example/pokemon.zpy)
+中文编程zpy-script，解析中文的Python关键字，[在线尝试 - Zpy Online IDE](https://service-jbqv5vwm-1302874749.gz.apigw.tencentcs.com/release/)
 
 #### 二、基本功能
 
 - 执行中文zpy脚本文件
 - 完全兼容python语法，完全兼容python官方库与第三方库
-
 - 将中文编程的zpy后缀文件，转化为py文件后执行
 - 将py文件转化为中文编程zpy文件
+- TODO 完善pyTozpy
+- TDDO 添加对全角符号的支持
 
 #### 三、软件架构
 - 基于Python3实现
